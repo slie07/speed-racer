@@ -1,13 +1,18 @@
 .racer_table td {
-  background-color: LightGrey;
-  height: 100px;
-  width: 100px;
+  background-color: none;
+  height: 200px;
+  width: 200px;
+
 }
 
 .racer_table td.active1 {
-  background-color: red;
+  background-image: url("porsche.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .racer_table td.active2 {
-  background-color: blue;
+  background-image: url("horse.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
