@@ -1,4 +1,5 @@
 body {
+	/*to make the body background center and not repeat*/
 	background-image: url("speed-landing.jpe");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -13,7 +14,7 @@ body {
   	margin-left: -100px;
 
 }
-
+/*make the start button center */
 .button {
   	background-color: #4CAF50; /* Green */
     border: none;
@@ -31,6 +32,7 @@ body {
   	margin-top: -40px;
   	margin-left: -100px;
 }
+/*make the button shake when you hover on it */
 .button:hover {
 
   background: red;
